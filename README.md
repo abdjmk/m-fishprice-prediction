@@ -4,7 +4,8 @@ Exclusively for Team M of WQD7006 members
 
 6.1 Overall Architecture 
 
- 
+ ![1682948467887](https://user-images.githubusercontent.com/102680739/235459812-a17c6434-ee01-4bc1-ad86-6a13fdfe5ae3.png)
+
 
 Figure 6.0 Project Architecture 
 
