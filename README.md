@@ -1,24 +1,2 @@
-# m-fishprice-prediction
-Exclusively for Team M of WQD7006 members
-6.0 Machine Learning model planning and draft ideas 
-
-6.1 Overall Architecture 
-
- ![1682948467887](https://user-images.githubusercontent.com/102680739/235459812-a17c6434-ee01-4bc1-ad86-6a13fdfe5ae3.png)
 
 
-Figure 6.0 Project Architecture 
-
-https://lucid.app/lucidchart/c22557bc-b292-4c92-981c-cfcc26dd847f/edit?invitationId=inv_43affe4f-5300-4294-92a6-16d42a5ac59c&page=-J1T~_ZWfAex# 
-
-1. Introduction: Define the regression problem of predicting monthly fish prices, and choose MSE and MAE as evaluation indicators. The goal of this project is to develop a mobile application to provide price forecasts and recommendations. 
-
-2. Dataset description and preprocessing: use historical fish price data in 2005 and other influencing factors to deal with outliers and missing values, construct new features, and make the target variable "Weekly_price" close to normal distribution. Delete the columns "LANDED_WEIGHT_KG", "LIVE_WEIGHT_KG" and "VALUE_MEXICAN_PESOS". 
-
-3. Mobile application prototype design: Design a 5-screen mobile application, including 1) data overview, showing the change of fish price over time; 2) price forecast, uploading weeks to get the predicted price; 3) price history, showing the past price trend ; 4) Price distribution, the histogram shows the price range distribution; 5) Price recommendation, a reasonable price range is obtained based on the current price. 
-
-4. Diagram and explanation of machine learning models: use linear regression, KNN, random forest to explain the principles and mathematical principles of each algorithm, and draw model diagrams. 
-
-5. Actual implementation and comparison of models: train three models, tune hyperparameters, compare MSE and MAE on the test set, and select the two models with the best results. Plot a scatterplot of predicted prices versus actual prices to visually check performance. 
-
-6. Conclusion and future work: Summarize the results, evaluate the predictive effect of the selected model, discuss the shortcomings and room for improvement, such as using longer time range data, adding other features, etc. 
